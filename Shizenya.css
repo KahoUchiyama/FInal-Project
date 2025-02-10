@@ -99,7 +99,7 @@ nav a:hover{
 	/*width: 500px;*/
 	margin: 0 auto;
     margin: 15px;
-    width: 600px;
+    text-align: center;
 }
 
 /*
@@ -191,10 +191,6 @@ margin: 10px;
     background-color: rgb(200, 209, 189);
 }
 
-/*#access iframe {
-	width: 70%;
-}*/
-
 .access_map {
     display: inline-block;
 	width: 30%;
@@ -260,13 +256,46 @@ button:hover {
 
 /*LUNCH　ここから！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！*/
 
+
+
 .menu_title{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
     color: rgb(87, 11, 26);
     margin: 50px;
+}
+
+#lunch{
     text-align: center;
+}
+
+.menu_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 150px;
+}
+
+#image_item{
+    display: flex;
+            flex-direction: column; /* テキストと画像を縦並び */
+            align-items: center; /* 中央揃え */
+            text-align: center; /* テキストを中央揃え */
+            margin: 10px;
+        }
+
+h3{
+color: #0b4601;
+margin-bottom: 5px;
 }
 
 #lunch_pic{
     width: 350px;
     height: 230px;
+    flex-wrap: wrap; /* 画面が狭くなったら折り返す */
+    margin: 10px;
 }
+
