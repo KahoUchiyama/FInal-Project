@@ -4,14 +4,14 @@
 }
 
 body{
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-family:serif;
 }
 
-/* サイト共通コンテナ */
 .container{
     max-width: 1100px;
 	margin: 0 auto;
     display: block;
+    text-align: center;
 }
 
 #site_logo {
@@ -40,14 +40,6 @@ body{
     clear: both;
 }
 
-/*float解除用
-.clearlist {
-    content: "";
-    display: block;
-    clear: both;
-}
-*/
-
 nav {
     display: block;
     background-color:#417101;
@@ -56,17 +48,12 @@ nav {
     text-align: center;
 }
 
-/*nav ul {
-  content: "";
-  clear: both;
-}*/
- 
 nav li {
 	display: inline-block;
 	width: 20%;
 	text-align: center;
 }
- 
+
 nav a {
 	display: inline-block;
 	color: #fff;
@@ -86,14 +73,6 @@ nav a:hover{
 	margin-bottom: 20px;
     background-color: rgb(248, 233, 223);
 }
- 
-/*#concept_logo {
-	margin-bottom: -40px;
-}*/
- 
-/*#concept h2 {
-	margin-right: 25px;
-}*/ 
 
 #concept p {
 	/*width: 500px;*/
@@ -101,12 +80,6 @@ nav a:hover{
     margin: 15px;
     text-align: center;
 }
-
-/*
-.container {
-max-width: 1000px;
-margin: 0 auto;
-}*/
 
 .ocean_box{
 display: inline-block;
@@ -142,9 +115,7 @@ margin: 10px;
     border: none;
     border-radius: 50%;
     margin: auto;
-
 }
-
 
 .vegan_box{
     display: inline-block;
@@ -162,26 +133,6 @@ margin: 10px;
         border-radius: 50%;
         margin: auto;
     }
-/*.menu_box {
-	width: 29%;
-	float: left;
-	margin-left: 3%;
-	margin-bottom: 30px;
-}
-
-.menu_box img {
-	width: 100%;
-	max-width: 300px;
-}
-
-.menu_box ul {
-	text-align: left;
-	font-size: 0.8em;
-
-	margin-left: 25px;
-
-	margin-left: 3%;
-}*/
 
 #access {
     width: max;
@@ -207,57 +158,7 @@ margin: 10px;
     padding: 20px;
 }
 
-.time{
-    padding-top: 20px;
-}
-
-.reservation-form {
-    display: grid;
-    gap: 10px;
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    background:  rgb(200, 209, 189);
-    justify-content: center;
-}
-
-input {
-    width: 400px;
-    height: 50px;
-    padding: 8px;
-    border: 1px solid #cccccc09;
-    border-radius: 5px;
-    text-align: center;
-}
-
-
-button {
-    /* grid-column: span 2; ボタンを2列に広げる */
-    padding: 10px;
-    background: #1f6e05;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0b4601;
-}
-
-
-#bottom {
-    display: block;
-    padding: 10px;
-    background-color: #000000;
-	color: #fff;
-	text-align: center;
-}
-
-/*LUNCH　ここから！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！*/
-
-
-
+/*LUNCH-------------------------------------------------------------------*/
 .menu_title{
     display: flex;
     flex-direction:column;
@@ -281,21 +182,75 @@ button:hover {
 
 #image_item{
     display: flex;
-            flex-direction: column; /* テキストと画像を縦並び */
-            align-items: center; /* 中央揃え */
-            text-align: center; /* テキストを中央揃え */
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
             margin: 10px;
         }
 
 h3{
 color: #0b4601;
-margin-bottom: 5px;
+margin: 5px;
 }
 
 #lunch_pic{
     width: 350px;
     height: 230px;
-    flex-wrap: wrap; /* 画面が狭くなったら折り返す */
+    flex-wrap: wrap; 
     margin: 10px;
+}
+
+/*reservation------------------------------------------------------*/
+.reservation_container{
+    background:  rgb(227, 246, 200);
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.reservation_container p{
+    color: #0b4601;
+    padding: 20px;
+    border-bottom:1px dotted #0b4601;
+}
+
+.reservation-form {
+    display: grid;
+    gap: 10px;
+    max-width: 100%;
+    margin: auto;
+    padding: 80px;
+    background:   rgb(227, 246, 200);
+    justify-content: center;
+    
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    padding: 8px;
+    border: 2px solid #cccccc09;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background: #1f6e05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b4601;
+}
+
+#bottom {
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+	color: #fff;
+	text-align: center;
 }
 
