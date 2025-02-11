@@ -26,6 +26,7 @@ body{
     text-align: left;
     margin-top: 30px;
     color: rgb(87, 11, 26);
+    background-color: white;
 }
 
 .site_tel {
@@ -59,7 +60,7 @@ nav a {
 	color: #fff;
 }
 nav a:hover{
-	opacity: 0.7;
+    color: yellow;
 }
 
 #main_image img {
@@ -79,22 +80,23 @@ nav a:hover{
 	margin: 0 auto;
     margin: 15px;
     text-align: center;
+    height: 80px;
+    overflow: scroll;
 }
 
 .ocean_box{
-display: inline-block;
-vertical-align: top; 
-width: 300px;
-color: rgb(20, 32, 109);
-text-align: center;
-margin: 10px;
+    display: inline-block;
+    vertical-align: top; 
+    width: 300px;
+    color: rgb(20, 32, 109);
+    text-align: center;
+    margin: 10px;
 }
 
 #ocean_img{
     display: block;
     width: 150px;
     height: 150px;
-
     margin: auto;
 }
 
@@ -126,11 +128,11 @@ margin: 10px;
 }
     
 #vegan_img{
-        display: block;
-        width: 150px;
-        height: 150px;
-        border: none;
-        border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
         margin: auto;
     }
 
@@ -162,8 +164,7 @@ margin: 10px;
 .menu_title{
     display: flex;
     flex-direction:column;
-    align-items: center;
-    
+    align-items: center;   
     color: rgb(87, 11, 26);
     margin: 50px;
 }
@@ -182,15 +183,15 @@ margin: 10px;
 
 #image_item{
     display: flex;
-            flex-direction: column; 
-            align-items: center; 
-            text-align: center; 
-            margin: 10px;
-        }
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin: 10px;
+}
 
 h3{
-color: #0b4601;
-margin: 5px;
+    color: #0b4601;
+    margin: 5px;
 }
 
 #lunch_pic{
@@ -201,11 +202,10 @@ margin: 5px;
 }
 
 /*reservation------------------------------------------------------*/
-.reservation_container{
+.reservation_container{   
     background:  rgb(227, 246, 200);
     padding-top: 50px;
     text-align: center;
-    
 }
 .reservation_container p{
     color: #0b4601;
@@ -216,12 +216,12 @@ margin: 5px;
 .reservation-form {
     display: grid;
     gap: 10px;
+    grid-template-rows:auto;
     max-width: 100%;
     margin: auto;
     padding: 80px;
     background:   rgb(227, 246, 200);
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 input {
