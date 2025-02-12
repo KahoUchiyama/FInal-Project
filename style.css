@@ -212,7 +212,6 @@ h3{
     color: #0b4601;
     display: inline;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 .reservation-form {
@@ -224,7 +223,6 @@ h3{
     padding: 80px;
     background:   rgb(227, 246, 200);
     justify-content: center;   
-    border-top: 1px #0b4601 dotted;
 }
 
 input {
