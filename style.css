@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -209,8 +210,9 @@ h3{
 }
 .reservation_container p{
     color: #0b4601;
+    display: inline;
     padding: 20px;
-    border-bottom:1px dotted #0b4601;
+    margin-bottom: 20px;
 }
 
 .reservation-form {
@@ -222,6 +224,7 @@ h3{
     padding: 80px;
     background:   rgb(227, 246, 200);
     justify-content: center;   
+    border-top: 1px #0b4601 dotted;
 }
 
 input {
