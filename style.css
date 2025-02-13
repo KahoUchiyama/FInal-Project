@@ -220,7 +220,7 @@ h3{
     grid-template-rows:auto;
     max-width: 100%;
     margin: auto;
-    padding: 80px;
+    padding: 100px;
     background:   rgb(227, 246, 200);
     justify-content: center;   
 }
@@ -234,7 +234,7 @@ input {
     text-align: center;
 }
 
-button {
+button{
     padding: 10px;
     background: #1f6e05;
     color: white;
